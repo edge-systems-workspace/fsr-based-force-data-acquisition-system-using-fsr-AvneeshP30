@@ -10,11 +10,8 @@
  * displays structured output via Serial Monitor.
  */
 
- // TODO 1:
- // Define FSR analog pin (Use A0)
-
- // TODO 2:
- // Create variable to store sensor reading
+#include <Arduino.h>
+int value = 0;
 
 void setup() {
 
